@@ -4,6 +4,12 @@
 2、dirty只有当其响应式数据发送变化时才会设置为true，重新计算后会再次被设置为false
 - 参考网站https://blog.csdn.net/SJ1551/article/details/109804232?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-1.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-1.control
 - vue源码解读：https://zhuanlan.zhihu.com/p/62732142
+### typeOf判断元素类型,用更好的方法替换
+- Object.prototype.toString.call()
+- 参考链接https://blog.csdn.net/hanyanshuo/article/details/104620122
+### instanceof 
+- instanceof 运算符用于检测构造函数的 prototype 属性是否出现在某个实例对象的原型链上。
+### vue中的delete和原生delete有什么区别
 ### eventloop
 ### promise async await原理
 ### for in 和 for of的区别
