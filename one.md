@@ -4,6 +4,8 @@
 2、dirty只有当其响应式数据发送变化时才会设置为true，重新计算后会再次被设置为false
 - 参考网站https://blog.csdn.net/SJ1551/article/details/109804232?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-1.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-1.control
 - vue源码解读：https://zhuanlan.zhihu.com/p/62732142
+### js new一个对象的过程
+- 先创建一个对象，然后将构造函数的this指向该对象，然后返回这个对象
 ### typeOf判断元素类型,用更好的方法替换
 - Object.prototype.toString.call()
 - 参考链接https://blog.csdn.net/hanyanshuo/article/details/104620122
